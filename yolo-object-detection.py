@@ -3,7 +3,7 @@ import numpy as np
 import glob
 import random
 
-read_net = cv2.dnn.readNet("C:/Users/ishan/OneDrive/Desktop/Machine_Learning/train_yolo_to_detect_custom_object/yolo_custom_detection/yolov3_training_last(1).weights", "C:/Users/ishan/OneDrive/Desktop/Machine_Learning/train_yolo_to_detect_custom_object/yolo_custom_detection/yolov3_testing.cfg")
+read_net = cv2.dnn.readNet("C:/Users/*path*/yolov3_training_last(1).weights", "C:/Users/*path*/yolov3_testing.cfg")
 
 
 classes = ["cone"]
