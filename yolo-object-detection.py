@@ -9,7 +9,7 @@ read_net = cv2.dnn.readNet("C:/Users/*path*/yolov3_training_last(1).weights", "C
 classes = ["cone"]
 
 # Images path
-#images_path = glob.glob("C:/Users/ishan/OneDrive/Desktop/computer_vision/images/IGVC/*.jpg")
+#images_path = glob.glob("C:/Users/*path*/images/IGVC/*.jpg")
 video_path = cv2.VideoCapture("C:/Users/ishan/OneDrive/Desktop/computer_vision/videos/IGCV2.mp4")
 
 
